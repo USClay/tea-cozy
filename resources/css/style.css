@@ -1,3 +1,47 @@
-h1 {
-  color: red;
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/*
+*=== HEADER ===
+*/
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: seashell;
+  margin-right: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: auto;
+  padding: 10px;
+  color: seashell;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav {
+  margin-right: 10px;
+}
+
+.nav span {
+  display: inline-block;
 }

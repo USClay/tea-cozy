@@ -6,6 +6,18 @@ body {
   opacity: 0.9;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2,
+h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
 /*
 *=== HEADER ===
 */
@@ -18,6 +30,7 @@ header {
   text-align: center;
   align-items: center;
   justify-content: space-between;
+  z-index: 5;
 }
 
 header a {
@@ -44,4 +57,25 @@ header a {
 
 .nav span {
   display: inline-block;
+}
+
+.main {
+  padding-top: 69px;
+  margin: auto;
+  width: 1200px;
+}
+/*
+*===BANNER IMAGE===
+*/
+#mission {
+  background-image: url("../images/mission-background.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }

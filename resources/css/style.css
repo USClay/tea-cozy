@@ -121,3 +121,17 @@ header a {
     padding: 5px;
     font-weight: bold;
   }
+
+/*
+*===LOCATIONS SECTION===
+*/
+
+.locations {
+  background-image: url("../images/locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+}
+
+.locations h2 {
+  padding-top: 60px;
+}
